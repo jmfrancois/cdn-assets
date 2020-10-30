@@ -11,5 +11,8 @@
     "@talend/scripts-build-cdn": "*"
   },
   "author": "Talend Frontend <frontend@talend.com> (http://www.talend.com)",
-  "license": "Apache-2.0"
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "webpack-bundle-analyzer": "^3.9.0"
+  }
 }
