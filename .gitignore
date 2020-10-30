@@ -44,4 +44,4 @@ hs_err_pid*
 /dist/**/node_modules
 /dist/**/package.json
 /dist/**/package-lock.json
-/dist/**/webpack-config
+/dist/**/webpack.config.js
