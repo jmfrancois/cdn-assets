@@ -1,0 +1,17 @@
+{
+  "name": "@talend/cdn-assets",
+  "version": "0.0.0",
+  "description": "contains the output of @talend/cdn-build",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@talend/scripts-build-cdn": "*"
+  },
+  "author": "Talend Frontend <frontend@talend.com> (http://www.talend.com)",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "webpack-bundle-analyzer": "^3.9.0"
+  }
+}
