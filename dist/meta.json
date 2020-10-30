@@ -25418,5 +25418,13 @@
     "integrity": "sha384-gYdJisdxjg5h26GRvuwUkX2CMkpkyaW/5gbCmdq71koUnqIXxD3i+u/3lbDfXgzP",
     "lastModified": "Sat, 26 Oct 1985 08:15:00 GMT",
     "size": 171545
+  },
+  "https://unpkg.com/styled-components@5.2.1/dist/styled-components.min.js": {
+    "path": "/dist/styled-components.min.js",
+    "type": "file",
+    "contentType": "application/javascript",
+    "integrity": "sha384-/cqEH4nEKCasBn3SKQ1dLfjXrTqx8dXCq1C1PLly48H8noDhaJMM8BwpnyWBIH8d",
+    "lastModified": "Fri, 30 Oct 2020 15:02:36 GMT",
+    "size": 33290
   }
 }
