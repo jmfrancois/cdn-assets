@@ -1,0 +1,13 @@
+
+Doing releases:
+
+ag-Grid
+
++ Update version in bower.json
++ Update version in package.json
++ Run 'gulp release'
++ Commit all changes to Github (including built files in /dist)
++ Release in Github
++ Push to by running 'npm publish ./'
+
+6. update bower, package, and dependency versions in component

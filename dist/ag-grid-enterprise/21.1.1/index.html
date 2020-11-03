@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="./dist/ag-grid-enterprise.js"></script>
+</head>
+<body>
+<h1>Hello from ag-grid!</h1>
+
+<div id="myGrid" style="height: 600px;width:500px;" class="ag-theme-balham"></div>
+
+<script type="text/javascript" charset="utf-8">
+    document.addEventListener('DOMContentLoaded', function () {
+
+        agGrid.LicenseManager.setLicenseKey("Allantra_Learning_Technologies_Corp._AVANTI_E-training_System_single_2_Devs_1_Deployment_License_30_July_2020_[v2]_MTU5NjA2NzIwMDAwMA==92de89e5de12c12b0e0009b5f054e218");
+
+        // specify the columns
+        var columnDefs = [
+            {headerName: "Make", field: "make"},
+            {headerName: "Model", field: "model"},
+            {headerName: "Price", field: "price"}
+        ];
+
+        // specify the data
+        var rowData = [
+            {make: "Toyota", model: "Celica", price: 35000},
+            {make: "Ford", model: "Mondeo", price: 32000},
+            {make: "Porsche", model: "Boxter", price: 72000}
+        ];
+
+        // let the grid know which columns and what data to use
+        var gridOptions = {
+            columnDefs: columnDefs,
+            rowData: rowData
+        };
+
+        // lookup the container we want the Grid to use
+        var eGridDiv = document.querySelector('#myGrid');
+
+        // create the grid passing in the div to use together with the columns & data we want to use
+        new agGrid.Grid(eGridDiv, gridOptions);
+    })
+</script>
+</body>
+</html>
