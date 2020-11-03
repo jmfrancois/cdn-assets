@@ -6,7 +6,7 @@
   "scripts": {
     "copy-modules": "talend-cdn build -e ';@angular;' -f -c",
     "copy-talend": "talend-cdn build -f -c -u ./node_modules/@talend/scripts-config-cdn/modules.json",
-    "build-umds": "talend-cdn build -f -c -u ./node_modules/@talend/scripts-config-cdn/umds.json"
+    "build-umds": "talend-cdn build -w -f -c -u ./node_modules/@talend/scripts-config-cdn/umds.json"
   },
   "dependencies": {
     "@talend/scripts-build-cdn": "*"
