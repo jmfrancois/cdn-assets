@@ -4,8 +4,8 @@
   "description": "contains the output of @talend/cdn-build",
   "main": "index.js",
   "scripts": {
-    "copy-modules": "talend-cdn build -e ';@angular;' -f -c",
-    "download-modules": "talend-cdn download -e ';@angular;' --versions ../ui/versions/dependencies.json",
+    "copy-modules": "talend-cdn build -e ';@angular;ag-grid-enterprise;zone.js;vue;tooltip.js;three;tachyons;semantic-ui;rx;reflect-metadata;redux-act;react-router-dom;preact-compat;preact;mobx;auth0-lock;aframe;' -f -c --versions ../ui/versions/dependencies.json",
+    "download-modules": "talend-cdn download -e ';@angular;ag-grid-enterprise;zone.js;vue;tooltip.js;three;tachyons;semantic-ui;rx;reflect-metadata;redux-act;react-router-dom;preact-compat;preact;mobx;auth0-lock;aframe;' --versions ../ui/versions/dependencies.json",
     "copy-talend": "talend-cdn build -f -c -u ./node_modules/@talend/scripts-config-cdn/modules.json",
     "build-umds": "talend-cdn build -w -f -c -u ./node_modules/@talend/scripts-config-cdn/umds.json"
   },
