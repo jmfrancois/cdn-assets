@@ -6,10 +6,11 @@
   "scripts": {
     "copy-modules": "talend-cdn build -f -c",
     "cleanup": "talend-cdn cleanup -v",
+    "sync": "aws s3 sync dist/",
     "diff": "talend-cdn awsdiff -o diff.json",
-    "download-modules": "talend-cdn download",
-    "copy-talend": "talend-cdn build -f -c -u ./node_modules/@talend/scripts-config-cdn/modules.json",
-    "build-umds": "talend-cdn build -w -f -c -u ./node_modules/@talend/scripts-config-cdn/umds.json"
+    "download": "talend-cdn download",
+    "download-talend": "talend-cdn download -u ./node_modules/@talend/scripts-config-cdn/modules.json",
+    "build-umds": "talend-cdn build -w -c -u ./node_modules/@talend/scripts-config-cdn/umds.json"
   },
   "dependencies": {
     "@talend/scripts-build-cdn": "*"
