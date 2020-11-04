@@ -1,0 +1,4 @@
+{
+  "versions": "../ui/versions/dependencies.json",
+  "exclude": ";@angular;ag-grid-enterprise;zone.js;vue;tooltip.js;three;tachyons;semantic-ui;rx;reflect-metadata;redux-act;react-router-dom;preact-compat;preact;mobx;auth0-lock;aframe;@sentry;@babel;@popperjs;@rooks"
+}
